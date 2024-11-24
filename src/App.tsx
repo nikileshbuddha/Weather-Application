@@ -7,7 +7,7 @@ import { WeatherForecast } from './components/WeatherForecast';
 import { WeatherHistory } from './components/WeatherHistory';
 import type { WeatherState, Coordinates } from './types';
 
-const API_KEY = '102797105b957a19b083294d1e2795a9';
+const API_KEY = 'ENTER_YOUR_API_KEY';
 const API_BASE = 'https://api.openweathermap.org/data/2.5';
 
 function App() {

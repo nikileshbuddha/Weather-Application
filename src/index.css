@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+
+  .bg-default {
+    @apply bg-gray-800;
+  }
+
+  .bg-cloudy {
+    @apply bg-sky-500;
+  }
+
+  .bg-sunny {
+    @apply bg-orange-400;
+  }
+
+  .bg-rainy {
+    @apply bg-blue-700;
+  }
+
+  .bg-snowy {
+    @apply bg-blue-200;
+  }
+
+  .bg-thunderstorm {
+    @apply bg-purple-900;
+  }
+
+  .bg-cloudy-card {
+    @apply bg-sky-300;
+  }
+
+  .bg-sunny-card {
+    @apply bg-orange-300;
+  }
+
+  .bg-rainy-card {
+    @apply bg-blue-500;
+  }
+
+  .bg-snowy-card {
+    @apply bg-blue-100;
+  }
+
+  .bg-thunderstorm-card {
+    @apply bg-purple-700;
+  }
+}
